@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>MealPal Privacy Policy</title>
+  <style>
+    body { font-family: Georgia, "Times New Roman", serif; max-width: 720px; margin: 40px auto; padding: 0 20px; color: #1c1c1c; line-height: 1.6; }
+    h1 { font-size: 2rem; margin-bottom: 0.2rem; }
+    h2 { font-size: 1.25rem; margin-top: 2rem; }
+    .meta { color: #5c564f; }
+    a { color: #8d4b3e; }
+  </style>
+</head>
+<body>
+  <h1>MealPal Privacy Policy</h1>
+  <p class="meta">Effective date: 28 September 2026</p>
+  <p>
+    This policy explains how MealPal (“we”, “us”) handles information when you use the MealPal mobile app.
+    Replace the bracketed contact details below with the legal name and email you use on Google Play before you publish this page.
+  </p>
+  <p>
+    Contact: <a href="mailto:[SUPPORT_EMAIL]">[SUPPORT_EMAIL]</a><br />
+    Operator: [LEGAL_NAME]
+  </p>
+
+  <h2>What MealPal does</h2>
+  <p>
+    MealPal helps you set a monthly eating goal (lose, maintain, or gain), log meals from photos, and see portion guidance such as “half a bowl” or “a few bites”.
+    MealPal is a wellness tool. It does not provide medical advice, diagnosis, or treatment.
+  </p>
+
+  <h2>Information we collect</h2>
+  <p><strong>Account information.</strong> If you create an account, we collect your email address and a password. The password is stored by our authentication provider as a hash, not as plain text. If you choose “Continue with Google”, Google shares with us the basic profile needed to sign you in, which may include your name, email address, and a user ID.</p>
+  <p><strong>Meal photos.</strong> When you take or import a meal photo, the image is sent to our analysis service so we can recognize the food and suggest a portion. We send the photo on to Alibaba Cloud’s Qwen API (<code>maas.qwencloudapi.com</code>) for that recognition. We do not keep a copy of the photo on our servers after the analysis response is returned. A copy stays on your device as part of your meal log until you log out or reset the app.</p>
+  <p><strong>Diet and body information used for guidance.</strong> With each analysis we send that day’s calorie target and how many calories you have already logged, so the suggestion can fit the day. Your height, weight, and goal choice are stored on your device and are used to calculate that target. We do not upload your height or weight as a profile stored on our servers.</p>
+  <p><strong>Meal log on your device.</strong> Food names, portion text, calorie estimates, and photo references for your log are stored locally on the phone. Logging out clears this local log.</p>
+  <p>We do not collect your location, contacts, SMS, advertising ID, or a public social profile. We do not sell personal information. The app does not include an advertising or analytics SDK.</p>
+
+  <h2>Why we use it</h2>
+  <ul>
+    <li>To create and secure your account.</li>
+    <li>To recognize food in a photo and return portion guidance.</li>
+    <li>To keep your goal and meal history available on your device.</li>
+    <li>To respond to a support or deletion request.</li>
+  </ul>
+
+  <h2>Who processes it</h2>
+  <p>These providers process data only so MealPal can function:</p>
+  <ul>
+    <li><strong>Supabase</strong> — account email, authentication session, and, for Google sign-in, the profile Google returns.</li>
+    <li><strong>Google</strong> — only if you choose Google sign-in. Google’s handling of that sign-in is covered by Google’s privacy policy.</li>
+    <li><strong>Alibaba Cloud (Qwen API)</strong> — the meal photo and the two numbers needed for that analysis (daily calorie target and calories already logged). The photo is used to return the recognition result.</li>
+  </ul>
+  <p>We do not share your information with data brokers or advertisers.</p>
+
+  <h2>How long we keep it</h2>
+  <ul>
+    <li>Account data: until you delete the account, or until we delete it after a verified request.</li>
+    <li>Meal photos on our servers: only for the time needed to return the analysis. They are not stored as a photo library on our servers.</li>
+    <li>Local meal log, height, weight, and goal: on your device until you log out, reset goals, or delete the app.</li>
+  </ul>
+
+  <h2>Security</h2>
+  <p>Account traffic and meal analysis are sent over HTTPS. No method of transmission or storage is perfectly secure.</p>
+
+  <h2>Your choices</h2>
+  <p>You can refuse the camera or photo library permission; meal photo analysis will not work without a photo. You can log out from the Goal screen, which signs you out and clears the local profile and meal log.</p>
+  <p id="deletion"><strong>Delete your account.</strong> Open the account screen and use the Delete account link under Log out. This removes your login, body profile, meal history, and meal photos from MealPal and from this device. You can also email <a href="mailto:[SUPPORT_EMAIL]">[SUPPORT_EMAIL]</a> from the address on the account with the subject “Delete my MealPal account”. Logging out or deleting the app does not by itself delete the account.</p>
+
+  <h2>Children</h2>
+  <p>MealPal is for adults 18 and older. We do not knowingly collect personal information from children. If you believe a child has created an account, contact us and we will delete it.</p>
+
+  <h2>International processing</h2>
+  <p>Supabase, Google, and Alibaba Cloud may process information in countries other than where you live. We use them to provide the account and the meal analysis described above.</p>
+
+  <h2>Changes</h2>
+  <p>If we change this policy, we will update the effective date on this page. Continued use of MealPal after the new date means you accept the updated policy.</p>
+</body>
+</html>
